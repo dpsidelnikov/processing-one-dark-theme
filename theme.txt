@@ -1,0 +1,174 @@
+# STATUS
+# Status messages (1 file added to sketch, errors, etc)
+status.notice.fgcolor = #ABB2BF
+status.notice.bgcolor = #22252C
+status.error.fgcolor = #f5f5f5
+status.error.bgcolor = #E06C75
+status.warning.bgcolor = #D19A66
+status.warning.fgcolor = #f5f5f5
+status.url.fgcolor = #ABB2BF
+status.font = Fira Code,plain,10
+# For the clipboard icon, needs to be a little larger on macOS
+status.emoji.font = Dialog,plain,19
+status.emoji.font.macosx = Dialog,plain,22
+
+# HEADER TABS
+# Settings for the tab area at the top.
+header.text.font = SF Pro Text,plain,12
+header.text.selected.color = #ABB2BF
+header.text.unselected.color = #6C727D
+header.tab.arrow.color = #6C727D
+header.gradient.top = #22252C
+header.gradient.bottom = #22252C
+header.tab.selected.color = #292C35
+header.tab.unselected.color = #22252C
+header.tab.modified.color = #568AF2
+
+# FOOTER TABS
+footer.text.font = SF Pro Text,plain,12
+footer.text.selected.color = #ABB2BF
+footer.text.unselected.color = #6C727D
+footer.tab.arrow.color = #6C727D
+footer.gradient.top = #22252C
+footer.gradient.bottom = #22252C
+footer.tab.selected.color = #292C35
+footer.tab.unselected.color = #22252C
+# updates orange #568AF2
+footer.updates.color = #568AF2
+
+# CONSOLE
+# The font is handled by preferences, so its size/etc are modifiable.
+console.color = #1B1D24
+console.output.color = #ABB2BF
+# text color for errors printed in the console
+console.error.color = #E06C75
+
+# TOOLBAR BUTTONS
+buttons.bgcolor = #22252C
+
+# for the debug and mode buttons
+#reversed.gradient.top = #22252C
+#reversed.gradient.bottom = #22252C
+
+## size of divider between editing area and the console
+#divider.size = 0
+## the larger divider on windows is ugly with the little arrows
+## this makes it large enough to see (mouse changes) and use,
+## but keeps it from being annoyingly obtrusive
+#divider.size.windows = 2
+
+divider.height = 9
+divider.color = #ABB2BF
+divider.dot.diameter = 3
+divider.dot.color = #22252C
+
+# TOOLBAR BUTTON TEXT
+toolbar.rollover.font = SF Pro Text,plain,12
+toolbar.rollover.color = #ABB2BF
+toolbar.gradient.top = #22252C
+toolbar.gradient.bottom = #22252C
+
+# MODE SELECTOR
+mode.title.font = SF Pro Text,plain,12
+mode.title.color = #ABB2BF
+# outline color of the mode button
+#mode.button.color = #ABB2BF
+#mode.button.gap = 13
+#mode.arrow.width
+#mode.background.color = #6C727D
+# stolen from gradient bottom
+mode.background.color = #22252C
+mode.outline.color = #6C727D
+
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #ABB2BF
+editor.bgcolor = #292C35
+
+editor.gradient.top = #22252C
+editor.gradient.bottom = #22252C
+
+# highlight for the current line
+editor.linehighlight.color=#3F4451
+# highlight for the current line
+editor.linehighlight=true
+
+editor.caret.color = #22252C
+editor.selection.color = #3F4451
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #ABB2BF,plain
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #ABB2BF
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #568AF2
+
+editor.gutter.text.font = Fira Code,plain,12
+#editor.gutter.text.color = #ABB2BF
+#editor.gutter.text.color = #ABB2BF
+editor.gutter.text.color = #ABB2BF
+
+# marker for breakpointed lines in left hand gutter (2 ascii characters)
+#editor.gutter.breakpoint.marker = <>
+#editor.gutter.breakpoint.marker.color = #568AF2
+
+# marker for the current line in left hand gutter (2 ascii characters)
+#editor.gutter.currentline.marker = ->
+#editor.gutter.currentline.marker.color = #D19A66
+
+# bgcolor for the current (highlighted) line
+editor.gutter.linehighlight.color=#3F4451
+
+# left- and right-hand gutter color
+editor.gutter.bgcolor = #22252C
+
+# color of vertical separation line
+#gutter.linecolor = #ABB2BF
+# space (in px) added to left and right of gutter markers
+editor.gutter.padding = 3
+
+# squiggly line underneath errors in the editor
+editor.error.underline.color = #E06C75
+# squiggly line underneath warnings
+editor.warning.underline.color = #D19A66
+# lines next to the scrollbar showing where errors are located
+editor.column.error.color = #E06C75
+editor.column.warning.color = #D19A66
+
+# not in use?
+#breakpoint.bgcolor = #f5f5f5
+#currentline.bgcolor = #ffff96
+
+errors.header.font = SF Pro Text,plain,12
+errors.header.bgcolor = #292C35
+errors.header.fgcolor = #ABB2BF
+errors.row.font = Fira Code,plain,10
+errors.row.fgcolor = #ABB2BF
+errors.row.bgcolor = #1B1D24
+errors.selection.fgcolor = #ABB2BF
+errors.selection.bgcolor = #3F4451
+errors.selection.error.bgcolor = #1B1D24
+errors.selection.warning.bgcolor = #1B1D24
+#errors.indicator.size = 5
+errors.indicator.error.color = #E06C75
+errors.indicator.warning.color = #D19A66
+
+manager.tab.selected.color = #292C35
+manager.tab.unselected.color = #22252C
+manager.tab.text.font = SF Pro Text,plain,12
+manager.tab.text.selected.color = #ABB2BF
+manager.tab.text.unselected.color = #6C727D
+# orange circle for updates
+manager.tab.update.color = #D19A66
+manager.tab.gradient.top = #22252C
+manager.tab.gradient.bottom = #22252C
+manager.tab.background = #1B1D24
+
+# tree for Examples and Sketchbook windows
+tree.font = SF Pro Text,plain,12
