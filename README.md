@@ -1,2 +1,2 @@
 # processing-one-dark-theme
-Atom One Dark UI inspired theme for processing editor
+Processing IDE theme inspired by Atom's One dark theme
